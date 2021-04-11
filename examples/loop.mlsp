@@ -1,0 +1,3 @@
+(do
+    (set i 5)
+    (while (> i 0) (do (print i) (set i (- i 1)))))

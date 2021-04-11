@@ -1,0 +1,5 @@
+(do
+    (if (> 10 (* 3 3)) (print wow) (print great))
+    (if (< 10 (* 3 3)) (print wow) (print great))
+    (if (= 10 (* 3 3)) (print eq) (print neq))
+    (if (= 9 (* 3 3)) (print eq) (print neq)))
