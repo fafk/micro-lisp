@@ -5,7 +5,7 @@ Tiny lispesque language - everybody is writing their lisp iterpreters in Python,
 ### Features:
 ✅ Branching (`(if (> 1 2) (do something) (do something_else))`)
 
-✅ Iterations (`while (> i ) (do stuff))`)
+✅ Iterations (`while (> i 10) (do stuff))`)
 
 ✅ Integers (i32)
 
