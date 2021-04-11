@@ -17,8 +17,8 @@ Tiny lispesque language - everybody is writing their lisp iterpreters in Python,
 
 ### Interpretation steps:
 * Chop up an input file with the lang source code into lexical units (tokens)
-* Perform "parsing" phase by creating a "tree" by nesting `Vec`s according to the parentheses
-* Evaluate the node of the tree
+* Perform "parsing" phase - create an abstract syntax tree by nesting `Vec`s according to the parentheses
+* Recursively evaluate the nodes of the tree
 
 Every function (if, while, do, ...) returns a value.
 
